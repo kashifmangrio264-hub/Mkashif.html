@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80");
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon .logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li {
+  margin: 0 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu ul li a:hover {
+  color: #ff7200;
+}
+
+/* Search */
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.srch {
+  font-family: Arial;
+  width: 200px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  width: 1200px;
+  color: white;
+  position: relative;
+  top: 100px;
+  margin: auto;
+}
+
+.content h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.content span {
+  color: #ff7200;
+  font-size: 60px;
+}
+
+.par {
+  padding: 20px 0;
+  line-height: 25px;
+}
+
+.cn {
+  width: 160px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cn a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Login Form */
+.form {
+  width: 250px;
+  height: 380px;
+  background: black;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 50px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.form h2 {
+  text-align: center;
+  color: #ff7200;
+  margin-bottom: 20px;
+}
+
+.form input {
+  width: 100%;
+  height: 35px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.btnn {
+  width: 100%;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btnn a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.link {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.link a {
+  color: #ff7200;
+}
+
+.liw {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.icons ion-icon {
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.icons ion-icon:hover {
+  color: #ff7200;
+}
